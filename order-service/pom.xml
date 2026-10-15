@@ -49,11 +49,19 @@
 			<artifactId>spring-kafka</artifactId>
 		</dependency>
 
-		<!-- H2 Database -->
+		<!-- H2 Database
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
+		</dependency>-->
+
+		<!-- PostgreSQL Database-->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
 		</dependency>
+
 
 		<!-- Tests -->
 		<dependency>
